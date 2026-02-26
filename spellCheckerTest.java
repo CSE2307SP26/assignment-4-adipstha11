@@ -27,8 +27,7 @@ class SpellCheckerTest {
 
 	@Test
 
-	void
-	testAddDuplicateWord()
+	void testAddDuplicateWord()
 	{
 		SpellChecker checker = new SpellChecker();
 		checker.addWord("hat");
